@@ -1,0 +1,36 @@
+.container {
+	display: flex;
+	margin-top: 300px;
+	
+	
+}
+
+
+.row {
+
+}
+
+.btn {
+	width: 48px;
+	height: 48px;
+	color: black;
+    background: #ffd700;
+	 border-radius: 4px;
+}
+
+.btn:active {
+	background: #ffb700
+}
+
+.result {
+	color: #ffb700;
+	right: 100px;
+	
+
+}
+
+.result:disabled {
+	background-color: white;
+	border: solid 1px #ffe100;
+	font-size: 14px;
+}
